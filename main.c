@@ -2,8 +2,8 @@
 //  main.c
 //  HPBPwdBreaker
 //
-//  Created by 堀口 修平 on 12/05/11.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by pheehs on 12/05/11.
+//  Copyright (c) 2012年 pheehs All rights reserved.
 //
 
 #include <stdio.h>
