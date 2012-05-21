@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71DB38E4156A39920092B70D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 71DB38E3156A39920092B70D /* main.c */; };
+		71DB38E6156A39920092B70D /* HPBPwdBreaker.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71DB38E5156A39920092B70D /* HPBPwdBreaker.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71DB38DD156A39920092B70D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				71DB38E6156A39920092B70D /* HPBPwdBreaker.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		71DB38DF156A39920092B70D /* HPBPwdBreaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HPBPwdBreaker; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DB38E3156A39920092B70D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		71DB38E5156A39920092B70D /* HPBPwdBreaker.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HPBPwdBreaker.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71DB38DC156A39920092B70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71DB38D4156A39920092B70D = {
+			isa = PBXGroup;
+			children = (
+				71DB38E2156A39920092B70D /* HPBPwdBreaker */,
+				71DB38E0156A39920092B70D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71DB38E0156A39920092B70D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71DB38DF156A39920092B70D /* HPBPwdBreaker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71DB38E2156A39920092B70D /* HPBPwdBreaker */ = {
+			isa = PBXGroup;
+			children = (
+				71DB38E3156A39920092B70D /* main.c */,
+				71DB38E5156A39920092B70D /* HPBPwdBreaker.1 */,
+			);
+			path = HPBPwdBreaker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71DB38DE156A39920092B70D /* HPBPwdBreaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DB38E9156A39920092B70D /* Build configuration list for PBXNativeTarget "HPBPwdBreaker" */;
+			buildPhases = (
+				71DB38DB156A39920092B70D /* Sources */,
+				71DB38DC156A39920092B70D /* Frameworks */,
+				71DB38DD156A39920092B70D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPBPwdBreaker;
+			productName = HPBPwdBreaker;
+			productReference = 71DB38DF156A39920092B70D /* HPBPwdBreaker */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71DB38D6156A39920092B70D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 71DB38D9156A39920092B70D /* Build configuration list for PBXProject "HPBPwdBreaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71DB38D4156A39920092B70D;
+			productRefGroup = 71DB38E0156A39920092B70D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71DB38DE156A39920092B70D /* HPBPwdBreaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71DB38DB156A39920092B70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DB38E4156A39920092B70D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71DB38E7156A39920092B70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		71DB38E8156A39920092B70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		71DB38EA156A39920092B70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71DB38EB156A39920092B70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71DB38D9156A39920092B70D /* Build configuration list for PBXProject "HPBPwdBreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DB38E7156A39920092B70D /* Debug */,
+				71DB38E8156A39920092B70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DB38E9156A39920092B70D /* Build configuration list for PBXNativeTarget "HPBPwdBreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DB38EA156A39920092B70D /* Debug */,
+				71DB38EB156A39920092B70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71DB38D6156A39920092B70D /* Project object */;
+}
