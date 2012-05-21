@@ -200,12 +200,7 @@ class DATA(object):
             else:
                 continue
         return False
-    
-    def get_both_pwd(self):
-        for ps,v in self.pwdsets_values:
-            if not False in [(type(p) == PWD) for p in ps.get_all()]:
-                yield ps,v
-                
+            
     def print_all(self):
         for ps,v in self.pwdsets_values:
             print "%s = %d" % (str(ps), v)
@@ -314,8 +309,8 @@ def hack(n=1):
         # but now only for 2 char blanks
         passwd = ""
         brute = []
-        for i in xrange(p):
-            n = encrypted.get(PWD(i))
+        for i in xrange(n):
+            p = encrypted.get(PWD(i))
             if not p:
                 passwd += "%c"##
                 brute.append(i)
@@ -325,7 +320,6 @@ def hack(n=1):
             print "==== Password detected!! ===="
             print "PASSWORD =", passwd
         else:
-            for ps,v in unknown_data.get_both_pwd()
             for i in brute:
                 pwd = PWD(i)
                 for ps,v in unknown_data.has_pwd(pwd):
